@@ -1,17 +1,24 @@
 import React, { Component } from "react";
 import { Route } from "react-router-dom";
-import Home from "../Home";
-import About from "../About";
-import Projects from "../Project";
+import Home from "../page/Home";
+import About from "../page/About";
+import Projects from "../page/Project";
+import Footer from "./footer";
+
+import "../style/style.css";
+import "../style/responsive.css";
 
 class body extends Component {
   render() {
     return (
-      <div>
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/project" component={Projects} />
-      </div>
+      <>
+        <main class="site-main">
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/project" component={Projects} />
+        </main>
+        <Footer />
+      </>
     );
   }
 }

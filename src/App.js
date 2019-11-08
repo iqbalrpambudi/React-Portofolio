@@ -1,15 +1,14 @@
 import React, { Component } from "react";
-import Navbar from "./components/navbar";
+import Header from "./components/header";
 import Body from "./components/body";
 import { BrowserRouter as Router } from "react-router-dom";
-import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 class App extends Component {
   render() {
     return (
       <Router>
-        <Navbar />
+        <Header />
         <Body />
       </Router>
     );
