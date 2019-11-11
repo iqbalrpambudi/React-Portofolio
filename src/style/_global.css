@@ -1,11 +1,15 @@
 /* Global Classes */
+/* @font-face */
 
 .title-text {
-  font: normal bold 40px/ 72px var(--roboto);
+  font-weight: lighter;
+  font-size: 60px;
+  font-family: Font;
 }
 
 .text-uppercase {
   text-transform: uppercase;
+  font-family: Font;
 }
 
 /* Buttons */
@@ -77,14 +81,9 @@ button:active button:hover .btn:active,
   font: normal bold 39px/ 40px var(--roboto);
 }
 
-.navbar_fixed {
-  position: fixed;
-  width: 100%;
-  top: -1px;
-  left: 0;
-  right: 0;
-  background: #ffffff;
-  box-shadow: var(--box-shadow);
-  z-index: 999;
+.navbar-shadow {
+  position: relative;
+  box-shadow: 0px 3px 8px rgb(0, 0, 0, 0.2);
   transition: background 1s ease;
+  z-index: 10;
 }

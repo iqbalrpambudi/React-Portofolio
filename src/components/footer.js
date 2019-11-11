@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Heart from "../assets/heart.gif";
 import "../style/style.css";
 import "../style/responsive.css";
-import "bootstrap/dist/js/bootstrap.min.js";
 
 class footer extends Component {
   render() {

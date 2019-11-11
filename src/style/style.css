@@ -19,7 +19,6 @@
 
 .header_area .main-menu .nav-item .nav-link {
   font: normal 500 15px/2px var(--roboto);
-  text-transform: uppercase;
   padding: 1.7rem;
   color: var(--title-color);
 }
@@ -273,10 +272,9 @@
 
 /* Subscribe me */
 
-.site-main .subscribe-us-area .subscribe {
-  /* background: url(../img/subscribe-bg.png) no-repeat; */
-  padding: 10rem 0;
-  margin: 3rem auto;
+.site-main .subscribe {
+  background: url(../assets/subscribe-bg.png) no-repeat;
+  background-position-x: center;
 }
 
 .site-main .subscribe-us-area .subscribe .subscribe-title h4 {
