@@ -12,7 +12,7 @@ class body extends Component {
   render() {
     return (
       <>
-        <main class="site-main">
+        <main className="site-main">
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/project" component={Projects} />
