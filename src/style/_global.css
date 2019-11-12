@@ -16,7 +16,7 @@
 
 .button {
   padding: 0.8rem 2.2rem;
-  font: normal 500 16px/20px var(--roboto);
+  font: normal 500 16px/20px var(--MyFont);
   position: relative;
   border: 3px solid transparent;
   border-radius: 4px;
@@ -63,11 +63,11 @@
 
 p.para {
   color: var(--text-color);
-  font: normal 500 16px/ 25px var(--roboto);
+  font: normal 500 16px/ 25px var(--MyFont);
 }
 
 .font-roboto {
-  font-family: var(--roboto);
+  font-family: var(--MyFont);
 }
 
 button:focus,
@@ -78,7 +78,7 @@ button:active button:hover .btn:active,
 }
 
 .title-h1 {
-  font: normal bold 39px/ 40px var(--roboto);
+  font: normal bold 39px/ 40px var(--MyFont);
 }
 
 .navbar-shadow {
