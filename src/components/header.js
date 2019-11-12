@@ -8,7 +8,10 @@ class header extends Component {
     return (
       <header className="header_area">
         <div className="main-menu">
-          <nav className="navbar navbar-expand-lg navbar-light fixed-top">
+          <nav
+            id="nav1"
+            className="navbar navbar-expand-lg navbar-light fixed-top transparent"
+          >
             <Link to="/" className="navbar-brand">
               <p class="lead">Portofolio</p>
             </Link>

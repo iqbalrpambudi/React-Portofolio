@@ -7,6 +7,13 @@
 /* import global styling */
 @import url(../style/_global.css);
 
+/* Additional Style */
+#nav1 {
+  background-color: white; /*whichever you want*/
+  opacity: 0.7;
+  filter: (opacity=50);
+}
+
 /* start navigation */
 
 .header_area .main-menu .navbar .navbar-brand {
@@ -190,7 +197,6 @@
 .site-main > .services-area .services {
   background: rgba(248, 252, 253, 0.973);
   padding: 2rem 0;
-  width: 16rem;
   margin: 5rem 0.5rem;
   transition: box-shadow 0.7s ease;
 }

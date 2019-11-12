@@ -11,7 +11,7 @@ class About extends Component {
       <section class="about-area">
         <div class="container-fluid">
           <FadeIn>
-            <div class="row">
+            <div class="row mt-5">
               <div class="col-lg-6 col-md-12">
                 <div class="about-image pt-5">
                   <img src={AboutImg} alt="About us" class="img-fluid" />

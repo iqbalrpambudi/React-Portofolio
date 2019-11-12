@@ -8,25 +8,25 @@ class Contact extends Component {
     return (
       <FadeIn>
         <div class="container">
-          <div class="">
-            <div class="site-logo text-center py-5">
-              <img src={Phone} alt="phone" width="500px" className="mt-5" />
+          <div class="row justify-content-center">
+            <div class="col-md-5 my-5">
+              <img src={Phone} alt="phone" className="mt-5 img-fluid" />
             </div>
-            <div class="social text-center">
-              <h5 class="text-uppercase mb-3">Follow me</h5>
-              <a href="https://facebook.com/igbalrilopambudi" className="mx-4">
-                <i className="fa fa-facebook fa-lg"></i>
-              </a>
-              <a href="https://github.com/iqbalrpambudi" className="mx-4">
-                <i className="fa fa-github fa-lg"></i>
-              </a>
-              <a href="https://instagram.com/iqbalrpambudi" className="mx-4">
-                <i className="fa fa-instagram fa-lg"></i>
-              </a>
-              <a href="https://twitter.com/iqbalrpambudi" className="mx-4">
-                <i className="fa fa-twitter fa-lg"></i>
-              </a>
-            </div>
+          </div>
+          <div class=" social text-center ">
+            <h5 class="text-uppercase mb-3">Follow me</h5>
+            <a href="https://facebook.com/igbalrilopambudi" className="mx-4">
+              <i className="fa fa-facebook fa-lg"></i>
+            </a>
+            <a href="https://github.com/iqbalrpambudi" className="mx-4">
+              <i className="fa fa-github fa-lg"></i>
+            </a>
+            <a href="https://instagram.com/iqbalrpambudi" className="mx-4">
+              <i className="fa fa-instagram fa-lg"></i>
+            </a>
+            <a href="https://twitter.com/iqbalrpambudi" className="mx-4">
+              <i className="fa fa-twitter fa-lg"></i>
+            </a>
           </div>
         </div>
       </FadeIn>
