@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Route } from "react-router-dom";
 import Home from "../page/Home";
 import About from "../page/About";
-import Projects from "../page/Project";
+import Contact from "../page/Contact";
 import Footer from "./footer";
 
 import "../style/style.css";
@@ -15,7 +15,7 @@ class body extends Component {
         <main className="site-main">
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
-          <Route path="/project" component={Projects} />
+          <Route path="/contact" component={Contact} />
         </main>
         <Footer />
       </>

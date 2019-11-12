@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Profile from "../assets/profile.jpg";
+import AboutImg from "../assets/lights.jpg";
 import Typewriter from "typewriter-effect";
 import FadeIn from "react-fade-in";
 import "../style/style.css";
@@ -13,8 +13,8 @@ class About extends Component {
           <FadeIn>
             <div class="row">
               <div class="col-lg-6 col-md-12">
-                <div class="about-image">
-                  <img src={Profile} alt="About us" class="img-fluid" />
+                <div class="about-image pt-5">
+                  <img src={AboutImg} alt="About us" class="img-fluid" />
                 </div>
               </div>
               <div class="col-lg-6 col-md-12 about-title">
