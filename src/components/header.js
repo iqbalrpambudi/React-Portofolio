@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import "../style/style.css";
-import "../style/responsive.css";
+import React, { Component } from "react"
+import { Link } from "react-router-dom"
+import "../style/style.css"
+import "../style/responsive.css"
 
 class header extends Component {
   render() {
@@ -13,7 +13,7 @@ class header extends Component {
             className="navbar navbar-expand-lg navbar-light fixed-top transparent"
           >
             <Link to="/" className="navbar-brand">
-              <p class="lead">Portofolio</p>
+              <p className="lead">Portofolio</p>
             </Link>
             <button
               className="navbar-toggler"
@@ -40,16 +40,21 @@ class header extends Component {
                   </Link>
                 </li>
                 <li className="nav-item">
+                  <Link to="/projects" className="nav-link font-weight-light">
+                    03 Projects
+                  </Link>
+                </li>
+                <li className="nav-item">
                   <a
                     href="https://www.iqbalpambudi.com"
                     className="nav-link font-weight-light"
                   >
-                    03 Blog
+                    04 Blog
                   </a>
                 </li>
                 <li className="nav-item">
                   <Link to="/contact" className="nav-link font-weight-light">
-                    04 Contact
+                    05 Contact
                   </Link>
                 </li>
               </ul>
@@ -57,8 +62,8 @@ class header extends Component {
           </nav>
         </div>
       </header>
-    );
+    )
   }
 }
 
-export default header;
+export default header

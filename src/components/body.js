@@ -1,12 +1,13 @@
-import React, { Component } from "react";
-import { Route } from "react-router-dom";
-import Home from "../page/Home";
-import About from "../page/About";
-import Contact from "../page/Contact";
-import Footer from "./footer";
+import React, { Component } from "react"
+import { Route } from "react-router-dom"
+import Home from "../page/Home"
+import About from "../page/About"
+import Contact from "../page/Contact"
+import Projects from "../page/Projects"
+import Footer from "./footer"
 
-import "../style/style.css";
-import "../style/responsive.css";
+import "../style/style.css"
+import "../style/responsive.css"
 
 class body extends Component {
   render() {
@@ -16,11 +17,12 @@ class body extends Component {
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
+          <Route path="/projects" component={Projects} />
         </main>
         <Footer />
       </>
-    );
+    )
   }
 }
 
-export default body;
+export default body
