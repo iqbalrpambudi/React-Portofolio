@@ -279,10 +279,10 @@
 
 /* Subscribe me */
 
-.site-main .subscribe {
+/* .site-main .subscribe {
   background: url(../assets/subscribe-bg.png) no-repeat;
   background-position-x: center;
-}
+} */
 
 .site-main .subscribe-us-area .subscribe .subscribe-title h4 {
   font: normal 700 30px/ 30px var(--MyFont);

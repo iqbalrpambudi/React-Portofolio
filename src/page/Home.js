@@ -16,7 +16,7 @@ class Home extends Component {
         <section className="site-banner">
           <div className="container">
             <FadeIn>
-              <div className="row">
+              <div className="row px-2">
                 <div className="col-lg-6 col-md-12 site-title">
                   <h3 className="title-text"> </h3>
 

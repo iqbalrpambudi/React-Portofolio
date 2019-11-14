@@ -15,7 +15,7 @@ class Projects extends Component {
           <div className="container">
             <div className="project-title pb-5">
               <h1 className="text-uppercase title-h1">
-                when i have 'Gabut' time
+                Gabut's Area
               </h1>
             </div>
 
@@ -115,66 +115,7 @@ class Projects extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-6 col-sm-12 element-item following">
-                <div className="our-project">
-                  <div className="img">
-                    <a
-                      className="test-popup-link"
-                      href="./img/portfolio/p7.jpg"
-                    >
-                      <img
-                        src="./img/portfolio/p7.jpg"
-                        alt="portfolio-7"
-                        className="img-fluid"
-                      />
-                    </a>
-                  </div>
-                  <div className="title py-4">
-                    <h4 className="text-uppercase">Green Heaven</h4>
-                    <span className="text-secondary">Following, Portfolio</span>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6 col-sm-12 element-item following">
-                <div className="our-project">
-                  <div className="img">
-                    <a
-                      className="test-popup-link"
-                      href="./img/portfolio/p8.jpg"
-                    >
-                      <img
-                        src="./img/portfolio/p8.jpg"
-                        alt="portfolio-8"
-                        className="img-fluid"
-                      />
-                    </a>
-                  </div>
-                  <div className="title py-4">
-                    <h4 className="text-uppercase">Fly Male</h4>
-                    <span className="text-secondary">Following, Portfolio</span>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
-                <div className="our-project">
-                  <div className="img">
-                    <a
-                      className="test-popup-link"
-                      href="./img/portfolio/p9.jpg"
-                    >
-                      <img
-                        src="./img/portfolio/p9.jpg"
-                        alt="portfolio-9"
-                        className="img-fluid"
-                      />
-                    </a>
-                  </div>
-                  <div className="title py-4">
-                    <h4 className="text-uppercase">Camera Lens</h4>
-                    <span className="text-secondary">Upcoming, Portfolio</span>
-                  </div>
-                </div>
-              </div>
+              
             </div>
           </div>
         </section>
