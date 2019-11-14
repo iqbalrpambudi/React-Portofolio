@@ -40,9 +40,9 @@ class header extends Component {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/projects" className="nav-link font-weight-light">
+                  <a href="/projects" className="nav-link font-weight-light">
                     03 Projects
-                  </Link>
+                  </a>
                 </li>
                 <li className="nav-item">
                   <a

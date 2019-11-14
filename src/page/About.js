@@ -8,17 +8,17 @@ import "../style/responsive.css"
 class About extends Component {
   render() {
     return (
-      <section class="about-area">
-        <div class="container-fluid">
+      <section className="about-area">
+        <div className="container-fluid">
           <FadeIn>
-            <div class="row mt-5">
-              <div class="col-lg-6 col-md-12">
-                <div class="about-image pt-5">
-                  <img src={AboutImg} alt="About us" class="img-fluid" />
+            <div className="row mt-5">
+              <div className="col-lg-6 col-md-12">
+                <div className="about-image pt-5">
+                  <img src={AboutImg} alt="About us" className="img-fluid" />
                 </div>
               </div>
-              <div class="col-lg-6 col-md-12 about-title">
-                <h2 class="text-uppercase pt-5">
+              <div className="col-lg-6 col-md-12 about-title">
+                <h2 className="text-uppercase pt-5">
                   <span>
                     <Typewriter
                       onInit={typewriter => {
@@ -29,14 +29,14 @@ class About extends Component {
                     />
                   </span>
                 </h2>
-                <FadeIn delay={4550}>
-                  <div class="paragraph py-4 w-75">
-                    <p class="para">
+                <FadeIn delay={4400}>
+                  <div className="paragraph py-4 w-75">
+                    <p className="para">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Error rerum iure obcaecati vel possimus officia maiores
                       perferendis ut! Quos, perspiciatis.
                     </p>
-                    <p class="para">
+                    <p className="para">
                       It is a long established fact that a reader will be
                       distracted by the readable content of a page when looking
                       at its layout. The point of using Lorem Ipsum is that it
@@ -47,7 +47,7 @@ class About extends Component {
                 </FadeIn>
                 {/* <button
                   type="button"
-                  class="btn button primary-button text-uppercase"
+                  className="btn button primary-button text-uppercase"
                 >
                   Download cv
                 </button> */}

@@ -1,20 +1,20 @@
-import React, { Component } from "react";
-import Phone from "../assets/phone.jpg";
-import FadeIn from "react-fade-in";
-import "font-awesome/css/font-awesome.min.css";
+import React, { Component } from "react"
+import Phone from "../assets/phone.jpg"
+import FadeIn from "react-fade-in"
+import "font-awesome/css/font-awesome.min.css"
 
 class Contact extends Component {
   render() {
     return (
       <FadeIn>
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-md-5 my-5">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-md-5 my-5">
               <img src={Phone} alt="phone" className="mt-5 img-fluid" />
             </div>
           </div>
-          <div class=" social text-center ">
-            <h5 class="text-uppercase mb-3">Follow me</h5>
+          <div className=" social text-center ">
+            <h5 className="text-uppercase mb-3">Follow me</h5>
             <a href="https://facebook.com/igbalrilopambudi" className="mx-4">
               <i className="fa fa-facebook fa-lg"></i>
             </a>
@@ -30,8 +30,8 @@ class Contact extends Component {
           </div>
         </div>
       </FadeIn>
-    );
+    )
   }
 }
 
-export default Contact;
+export default Contact

@@ -228,8 +228,9 @@
   font: normal 700 25px/12px var(--MyFont);
 }
 
-.site-main .project-area .grid .our-project .img a:hover img {
-  filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+.site-main .project-area .grid .our-project .img img:hover {
+  filter: brightness(1.1) drop-shadow(1px 8px 15px #b1afaf);
+  transition: 0.5s ease;
 }
 
 /* End Project Area */
